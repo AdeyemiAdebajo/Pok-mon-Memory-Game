@@ -3,7 +3,11 @@ table {
   border: 2px solid black;
   border-collapse: collapse;
 }
-#restartBtn {
+body {
+  background-color: #0f172a;
+  color: white;
+}
+#restartBtn  {
   display: block;
   margin: auto;
   padding: 10px 20px;
@@ -12,15 +16,14 @@ table {
   background-color: #3b82f6;
   text-align: center;
 }
-p {
+p{
   text-align: center;
   font-size: 18px;
   font-family: Arial, sans-serif;
-}
+  }
 h1 {
   text-align: center;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
 
 td,
 th {
@@ -31,7 +34,7 @@ th {
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
-  background: #1e293b;
+  background: #899cba;
   perspective: 1000px;
 }
 td img {
@@ -42,8 +45,8 @@ td img {
 
 td.revealed img {
   display: block;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
+  
+  
 }
 
 td.matched {
