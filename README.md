@@ -1,6 +1,7 @@
 # Pokémon Memory Match (4×4)
 
-A simple browser-based matching game built with HTML/CSS/JS.  
+
+A simple browser-based matching game built with HTML/CSS / JS.  
 It fetches 8 random Pokémon from the public **PokeAPI** and creates a 4×4 board with pairs.
 
 ## How to run

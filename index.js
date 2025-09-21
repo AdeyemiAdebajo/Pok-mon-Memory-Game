@@ -106,7 +106,7 @@ function startTimer() {
     const elapsed = Math.floor((Date.now() - startTime) / 1000);
     const min = String(Math.floor(elapsed / 60)).padStart(2, "0");
     const sec = String(elapsed % 60).padStart(2, "0");
-    document.getElementById("timer").textContent = `${min} mins:${sec} ec`;
+    document.getElementById("timer").textContent = `${min} mins: ${sec} sec`;
   }, 1000);
 }
 function stopTimer() {
@@ -123,7 +123,7 @@ async function startGame() {
     stopTimer();
     matches = 0;
     document.getElementById("status").textContent = "";
-    document.getElementById("timer").textContent = "00:00";
+    document.getElementById("timer").textContent = "00 mins: 00 sec";
 
     await shuffleCards();
     fillTable();
